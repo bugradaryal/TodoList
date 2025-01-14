@@ -6,15 +6,20 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
-public class LoginDTO {
+public class AddTodoDTO {
+
     @NotBlank
-    @Size(min = 6, max = 92)
-    private String email;
+    @Size(min = 1, max = 350)
+    private String title;
+
     @NotBlank
-    @Size(min = 5, max = 16)
-    private String password;
+    @Size(max = 650)
+    private String description;
+
+    @NotBlank
+    @Size(min = 1, max = 1250)
+    private String content;
 }
