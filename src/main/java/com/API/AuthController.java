@@ -6,7 +6,6 @@ import com.DTO.LoginDTO;
 import com.DTO.RegisterDTO;
 import com.DTO.UpdateDTO;
 import com.Entities.User;
-import org.hibernate.sql.Update;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -7,5 +7,5 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class ProblemDetails {
-    String message;
+    private String message;
 }

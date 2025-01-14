@@ -2,9 +2,7 @@ package com.API;
 
 import com.Business.Abstact.ITodoServices;
 import com.Business.Concrete.TodoManager;
-import com.Business.Concrete.UserManager;
 import com.DTO.AddTodoDTO;
-import com.DTO.UpdateDTO;
 import com.DTO.UpdateTodoDto;
 import com.Entities.Todo;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -7,7 +7,6 @@ import com.DTO.RegisterDTO;
 import com.DTO.UpdateDTO;
 import com.DataAccess.Abstact.IUserRepository;
 import com.Entities.User;
-import org.hibernate.sql.Update;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

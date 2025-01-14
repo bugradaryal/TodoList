@@ -6,7 +6,6 @@ import com.Core.Utilities.Mapper.ModelMapperServices;
 import com.DTO.AddTodoDTO;
 import com.DTO.UpdateTodoDto;
 import com.DataAccess.Abstact.ITodoRepository;
-import com.DataAccess.Abstact.IUserRepository;
 import com.Entities.Todo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
